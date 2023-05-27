@@ -35,10 +35,10 @@ logging.basicConfig(
 class Config(object):
     WEBHOOK = os.environ.get("BOT_TOKEN", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6119758281:AAFNCl4gzd-1w957bRKEhjb6kW1JnaDZm3U")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("API_ID", '23990433'))
+    API_HASH = os.environ.get("API_HASH",'e6c4b6ee1933711bc4da9d7d17e1eb20')
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
@@ -63,8 +63,8 @@ class Config(object):
     # Set timeout for subprcess
     PROCESS_MAX_TIMEOUT = 3700
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
-    OWNER_ID = int(os.environ.get("OWNER_ID", "12356"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", '-1001682397310'))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5821871362"))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x)
