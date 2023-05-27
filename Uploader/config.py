@@ -35,7 +35,7 @@ logging.basicConfig(
 class Config(object):
     WEBHOOK = os.environ.get("BOT_TOKEN", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6119758281:AAFNCl4gzd-1w957bRKEhjb6kW1JnaDZm3U")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5909685271:AAGrx4Ghfrwvw_J9DH2WS2nXLjAjLF6BrTM")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", '23990433'))
     API_HASH = os.environ.get("API_HASH",'e6c4b6ee1933711bc4da9d7d17e1eb20')
@@ -65,7 +65,7 @@ class Config(object):
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", '-1001682397310'))
     OWNER_ID = int(os.environ.get("OWNER_ID", "5821871362"))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Url_sk_Uploader_bot")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x)
                       for x in os.environ.get("AUTH_USERS", "0").split()})
